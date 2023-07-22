@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      rel="icon"
+      href="https://imgcdn.floweraura.com/fevicon_new.ico"
+      type="img/x-icon"
+    />
+
+    <!-- my css -->
+    <link rel="stylesheet" href="main.css" type="text/css" />
+
+    <!-- font-awesome icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-lg" id="nav-head">
+      <div class="container-fluid" id="nav-items">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="https://imgcdn.floweraura.com/logo_web.svg"
+            alt="floweraura"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <div id="gps">
+                <i class="fa-solid fa-location-arrow"></i> Diliver to
+                <i class="fa-solid fa-caret-down"></i>
+              </div>
+            </li>
+            <li class="nav-item">
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                  id="search"
+                />
+                <button class="btn" type="submit" id="btn">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </form>
+            </li>
+
+            <li class="nav-item face">
+              <i class="fa-solid fa-map-location-dot"></i> <br />
+              <span class="track"> Track Order</span>
+            </li>
+            <li class="nav-item face">
+              <i class="fa-solid fa-gift"></i> <br />
+              <span class="track"> Gift</span>
+            </li>
+
+            <li class="nav-item face">
+              <i class="fa-solid fa-bag-shopping"></i> <br />
+              <span class="track"> Cart </span>
+            </li>
+            <li class="nav-item face">
+              <i class="fa-regular fa-face-smile"></i> <br />
+              <span class="track"> Sign in</span>
+            </li>
+            <li class="nav-item face">
+              <i class="fa-solid fa-bars"></i><br />
+              <span class="track"> More</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- nav subtitle -->
+    <div class="container-fluid">
+      <div class="row" id="nav-title">
+        <div class="col-md-12 col-11">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active text-black" aria-current="page" href="#"
+                >Rakhi</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="#">Express</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="#">Cakes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black disabled">Flowers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Combos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Combos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Personalised</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Gift</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Anniversary</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- nav subtitle end -->
+
+      <!-- hreo section start -->
+      <div class="row justify-content-center">
+        <div class="col-md-10 col-11">
+          <img
+            src="https://imgcdn.floweraura.com/flower_homepage_fa_desktop_7.jpg?tr=w-1583,q-70"
+            alt="heroimage"
+            class="img-fluid rounded-4 mt-4 mb-4"
+          />
+        </div>
+      </div>
+      <!-- hreo section end -->
+
+      <!-- Online Flower Deliver start -->
+      <div class="row justify-content-center pb-4 pb-3">
+        <div class="col-md-12">
+          <h3 class="text-center mb-3">Online Flower Deliver</h3>
+        </div>
+        <div class="col-md-3 col-11 pb-3">
+          <img
+            src="https://imgcdn.floweraura.com/birthday_37.jpg?tr=w-300,h-300,q-70"
+            alt="Birthday"
+            class="img-fluid rounded-4"
+            id="birthday"
+          />
+          <figcaption class="figure-caption text-center text-black mt-3">
+            Birthday
+          </figcaption>
+        </div>
+        <div class="col-md-3 col-11 pb-3">
+          <img
+            src="https://imgcdn.floweraura.com/anniversary_28.jpg?tr=w-300,h-300,q-70"
+            alt="Anniversary"
+            class="img-fluid rounded-4"
+            id="birthday"
+          />
+          <figcaption class="figure-caption text-center text-black mt-3">
+            Anniversary
+          </figcaption>
+        </div>
+        <div class="col-md-3 col-11 pb-3">
+          <img
+            src="https://imgcdn.floweraura.com/love_and_romance_4.jpg?tr=w-300,h-300,q-70"
+            alt="Love and Affection"
+            class="img-fluid rounded-4"
+            id="birthday"
+          />
+          <figcaption class="figure-caption text-center text-black mt-3">
+            Love and Affection
+          </figcaption>
+        </div>
+        <div class="col-md-3 col-11 pb-3">
+          <img
+            src="https://imgcdn.floweraura.com/hampers_34.jpg?tr=w-300,h-300,q-70"
+            alt="Flower Hampers"
+            class="img-fluid rounded-4"
+            id="birthday"
+          />
+          <figcaption class="figure-caption text-center text-black mt-3">
+            Flower Hampers
+          </figcaption>
+        </div>
+      </div>
+      <!-- Online Flower Deliver end -->
+
+      <!-- card start -->
+      <div class="row justify-content-center">
+        <div class="col-md-5 mb-4">
+          <div id="view-img">
+            <div class="view"></div>
+            <div class="view-all">
+              <h3 class="float-start head3">Flowers in Vases</h3>
+              <span class="float-end head4 text-center">VIEW All</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 mb-4">
+          <div id="view-img">
+            <div class="view2"></div>
+            <div class="view-all">
+              <h3 class="float-start head3">Flower Gift Boxes</h3>
+              <span class="float-end head4 text-center">VIEW All</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- card end -->
+
+      <!-- Special Flowers -->
+      <div class="row justify-content-center mb-4 mt-3">
+        <div class="col-md-10 pt-3 text-center" id="Premium1">
+          <h3>Floweraura's Special Flowers</h3>
+          <p>Explore Special Flowers</p>
+        </div>
+        <div class="row pb-4 pt-2" id="Premium">
+          <div class="col-md-4">
+            <div class="special-fool img-fluid">
+              <div class="special"></div>
+              <figcaption class="figure-caption text-center" id="specialimg1">
+                Premium Flowers
+              </figcaption>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="special-fool img-fluid">
+              <div class="special specia2"></div>
+              <figcaption class="figure-caption text-center" id="specialimg1">
+                Premium Flowers
+              </figcaption>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="special-fool img-fluid">
+              <div class="special specia3"></div>
+              <figcaption class="figure-caption text-center" id="specialimg1">
+                Premium Flowers
+              </figcaption>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Special Flowers end-->
+
+      <!-- Flowers by Types -->
+      <div class="row justify-content-center">
+        <div class="col-md-12 col-11 pt-3">
+          <h3 class="text-center">Flowers by Types</h3>
+          <p class="text-center">
+            Discover the Everlasting Elegance of Flowers
+          </p>
+        </div>
+        <div class="col-md-2 pb-4">
+          <img
+            src="https://imgcdn.floweraura.com/rose_10.jpg"
+            alt="Rose"
+            class="img-fluid rounded-3 bytype"
+          />
+          <figcaption class="figure-caption text-center">Roses</figcaption>
+        </div>
+        <div class="col-md-2 pb-4">
+          <img
+            src="https://imgcdn.floweraura.com/lilies_12.jpg"
+            alt=""
+            class="img-fluid rounded-3 bytype"
+          />
+          <figcaption class="figure-caption text-center">Lilies</figcaption>
+        </div>
+        <div class="col-md-2 pb-4">
+          <img
+            src="https://imgcdn.floweraura.com/orchids_3.jpg"
+            alt=""
+            class="img-fluid rounded-3 bytype"
+          />
+          <figcaption class="figure-caption text-center">Orchids</figcaption>
+        </div>
+        <div class="col-md-2 pb-4">
+          <img
+            src="https://imgcdn.floweraura.com/carnations_12.jpg"
+            alt=""
+            class="img-fluid rounded-3 bytype"
+          />
+          <figcaption class="figure-caption text-center">Carnations</figcaption>
+        </div>
+        <div class="col-md-2 pb-4">
+          <img
+            src="https://imgcdn.floweraura.com/gerberas_3.jpg"
+            alt=""
+            class="img-fluid rounded-3 bytype"
+          />
+          <figcaption class="figure-caption text-center">Gerberas</figcaption>
+        </div>
+      </div>
+      <!-- Flowers by Types end-->
+
+      <!-- text -->
+      <div class="row justify-content-center">
+        <div class="col-md-10">
+          <h6>
+            Send Flowers Online in India from FlowerAura - India's #1 Online
+            Florist
+          </h6>
+          <p class="lastp">
+            Looking to make someone's day added special with some beautiful
+            blooms? Look no further than FlowerAura, the #1 Online Florist in
+            India! Our floral arrangements are designed to bring a smile to
+            anyone's face, no matter what the occasion. <br />
+            <br />
+            Whether you're celebrating a birthday, or anniversary or simply want
+            to brighten up someone's day, our online flower shops have got you
+            covered. With our user-friendly website, you can easily browse
+            through our extensive selection of stunning bouquets and
+            arrangements and have them delivered to your loved ones across the
+            country. No more standing in long lines at the florist or dealing
+            with traffic - we've got you covered! <br />
+            <br />
+            We believe in delivering only the best quality and bewitching
+            flowers to our customers. That's why we source the freshest and most
+            captivating flowers from trusted suppliers. Our team of skilled
+            florists carefully handcraft each arrangement with care, ensuring
+            that every detail is just perfect. <br />
+            <br />
+            So, there is no need to look for any extravagant gifts as we are
+            here to provide you with natural exoticness at your door. Choose
+            FlowerAura to send flowers to India and add a little gorgeousness to
+            your loved ones' day. Whether you want to say "I love you," "Happy
+            Birthday," or simply "Missing You," we've got the perfect bouquet
+            for every occasion. Order now and make someone's day!
+          </p>
+
+          <h6>Why Choose Floweraura for Online Flowers Delivery in India?</h6>
+          <p class="lastp">
+            Are you looking for a reliable and hassle-free online flower
+            delivery service in India? Look no further than Floweraura! We are
+            committed to providing the freshest, most lively flowers delivered
+            straight to your doorstep, making it easy for you to make your loved
+            ones feel special.
+          </p>
+
+          <p class="lastp">
+            Here are just a few reasons why you should choose Floweraura for all
+            your floral needs:
+          </p>
+
+          <ul class="liststyle">
+            <li>
+              <p class="lastp">
+                <b> Convenient delivery options:</b> We understand the
+                importance of timely delivery, which is why we offer reliable
+                and hassle-free home delivery of flowers. Our team ensures that
+                your order arrives at your desired place on time, every time.
+              </p>
+            </li>
+            <li>
+              <p class="lastp">
+                <b> Easy online ordering:</b> Our user-friendly website and
+                mobile app make it simple to browse through our wide selection
+                of flowers and place an order in just a few clicks. Plus, our
+                secure payment options give you peace of mind that your
+                information is always protected.
+              </p>
+            </li>
+            <li>
+              <p class="lastp">
+                <b>Budget-Friendly Floral Arrangements:</b> We offer affordable
+                prices on our wide selection of fresh and beautiful flowers,
+                making it easy for you to send a thoughtful gift without bombing
+                your pockets.
+              </p>
+            </li>
+            <li>
+              <p class="lastp">
+                <b> Flowers For Every Occasion: </b> Whether you're celebrating
+                a birthday, anniversary, or any other special occasion, we have
+                the perfect bouquet to suit your needs. From classic roses to
+                exotic orchids, we have flowers for every occasion.
+              </p>
+            </li>
+            <li>
+              <p class="lastp">
+                <b> Wide variety of flowers:</b> We have a wide variety of fresh
+                and beautiful flowers for every occasion, including roses,
+                lilies, orchids, and more. Whether you're celebrating a
+                birthday, anniversary, or any other special occasion, we have
+                everything in store for you.
+              </p>
+            </li>
+            <p class="lastp">
+              Our dedication to quality and exceptional customer service make us
+              the perfect choice for any occasion. Order flowers online now and
+              make someone's day a little brighter!
+            </p>
+          </ul>
+          <h6>Flowers Online Delivery</h6>
+          <p class="lastp">
+            Products in this category have been rated 4.8 out of 5 based on 683
+            reviews. <br />
+            We have a collection of 266 Products on sale, ranging from INR 299
+            to INR 50000
+          </p>
+        </div>
+      </div>
+      <!-- text end-->
+
+      <!-- Card start -->
+      <div class="row justify-content-evenly pt-3 pb-4 mt-4 mb-4">
+        <div class="col-md-10">
+          <h5>Flowers Related Blogs</h5>
+        </div>
+
+        <div class="col-md-3 col-11 mt-3">
+          <div class="card" style="width: 22rem">
+            <div class="card-body">
+              <h6 class="card-title">
+                Why Flower Arrangement Makes for Memorable Gifts
+              </h6>
+
+              <p class="card-text lastp">
+                When it comes to gifting, few things can match the beauty and
+                sentimentality of a well-crafted flower arrangement. Whether
+                it's a bouquet of roses, a vibrant mix of wildflowers, or <br />
+                <a href="#" class="card-link">More...</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-11 mt-3">
+          <div class="card" style="width: 22rem">
+            <div class="card-body">
+              <h6 class="card-title">
+                10 Tips for Creating a Stunning Flower Arrangement
+              </h6>
+
+              <p class="card-text lastp">
+                Flower arrangements are not just mere decorations; they have the
+                power to transform any space with their vibrant colors,
+                captivating fragrances, and natural beauty. Whether you're
+                crafting a centerpiece for <br />
+                <a href="#" class="card-link">More...</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-11 mt-3">
+          <div class="card" style="width: 22rem">
+            <div class="card-body">
+              <h6 class="card-title">
+                How to Choose the Right Seeds for Your Cut Flower Garden
+              </h6>
+
+              <p class="card-text lastp">
+                Flower gardening is a delightful hobby that gets you connected
+                to the natural calmness and allows you to bring the beauty of
+                nature into your home. One of the main elements of creating a
+                successful cut flower <br />
+                <a href="#" class="card-link">More...</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Card end -->
+
+      <!-- Social Media -->
+      <div class="row justify-content-center pt-4 pb-4">
+        <div
+          class="col-md-8 coll-11 rounded-3 text-center pt-3 pb-3"
+          style="background-color: #fefae0"
+        >
+          <h6 class="text-center pt-3">Spread The Love On Social Media</h6>
+          <!-- <div class="row justify-content-center pb-4 pt-3"> -->
+
+          <i class="fa-brands fa-facebook" title="facebook"></i>
+
+          <i class="fa-brands fa-twitter" title="twitter"></i>
+
+          <i class="fa-brands fa-youtube" title="youtube"></i>
+
+          <i class="fa-brands fa-pinterest" title="pinterest"></i>
+
+          <i class="fa-brands fa-instagram" title="instagram"></i>
+
+          <i class="fa-brands fa-linkedin" title="linkedin"></i>
+
+          <!-- </div> -->
+        </div>
+      </div>
+      <!-- Social Media end -->
+
+      <!-- subfooter -->
+      <div class="row mt-3" id="subfooter">
+        <div class="col-md-12 coll-11">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-black subfot"
+                aria-current="page"
+                href="#"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black subfot" href="#">Sell With Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black subfot" href="#">Coupons & Deals</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black subfot" href="#"
+                >Cancellation & Refund</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black subfot" href="#"
+                >Terms and Conditions</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black subfot" href="#">Career</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black subfot" href="#">Media</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black subfot" href="#">Privacy Policy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black subfot" href="#">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black subfot" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black subfot" href="#">Sitemap</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- subfooter end -->
+
+      <hr />
+      <!-- footer -->
+      <footer>
+        <div class="row justify-content-between pb-4">
+          <div class="col-md-5 coll-11">
+            <img
+              src="https://imgcdn.floweraura.com/logo_web.svg"
+              height="40"
+              alt=""
+              class="footerimg"
+            />
+            Copyright. 2023. FA GIFTS PVT. LTD
+          </div>
+
+          <div class="col-md-5 coll-11">
+            We Accept:
+            <i class="fa-brands fa-paypal" title="paypal" id="footericon"></i>
+            <i
+              class="fa-brands fa-google-pay"
+              title="googlepay"
+              id="footericon"
+            ></i>
+            <i
+              class="fa-brands fa-cc-visa"
+              title="visa card"
+              id="footericon"
+            ></i
+            ><i
+              class="fa-brands fa-apple-pay"
+              title="apple-pay"
+              id="footericon"
+            ></i
+            ><i
+              class="fa-brands fa-amazon-pay"
+              title="amazon-pay"
+              id="footericon"
+            ></i>
+            <i
+              class="fa-solid fa-credit-card"
+              title="credit-card"
+              id="footericon"
+            ></i>
+          </div>
+        </div>
+      </footer>
+      <!-- footer end-->
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

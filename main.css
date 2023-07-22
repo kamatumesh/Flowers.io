@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Nav bar */
+
+#nav-head {
+  background-color: #ade8f49f;
+}
+
+#nav-items {
+  padding-left: 10vw;
+}
+
+#gps {
+  border: 1px solid black;
+  font-size: 1rem;
+  padding: 5px 10px 5px 10px;
+  border-radius: 30px;
+}
+
+#search {
+  border-radius: 30px;
+  margin-left: 10%;
+  width: 30vw;
+  background-color: rgba(128, 128, 128, 0.172);
+}
+
+#btn {
+  border-radius: 30px;
+  position: relative;
+  right: 50px;
+  border: none;
+}
+
+.face {
+  margin-left: 20px;
+}
+
+.track {
+  position: relative;
+  top: -8px;
+}
+
+@media (max-width: 1000px) and (min-width: 200px) {
+  #nav-item,
+  #search {
+    width: 50%;
+    margin-top: 8px;
+  }
+  #gps,
+  #search {
+    margin-left: -20px;
+  }
+  #search {
+    width: 80%;
+  }
+  .face {
+    margin-left: -20px;
+  }
+}
+
+/* nav-title */
+
+#nav-title {
+  border: 2px solid #ade8f49f;
+  background-color: #caf0f85c;
+  font-size: 0.8rem;
+}
+
+/* Online Flower Deliver start  */
+
+#birthday:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 20px gray, -5px -5px 10px gray;
+  transition-property: all;
+  transition-duration: 1.2s;
+}
+
+.figure-caption {
+  font-weight: 600;
+}
+
+/* card start */
+
+#view-img {
+  height: 250px;
+  /* border: 1px solid black; */
+  border-radius: 10px 10px 10px 10px;
+  background-color: azure;
+}
+
+.view {
+  background-image: url(https://imgcdn.floweraura.com/flower_in_vases_2.jpg);
+  height: 200px;
+  background-size: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.head3 {
+  padding: 5px;
+}
+
+.head4 {
+  padding: 6px;
+  border: 2px solid green;
+  color: green;
+  border-radius: 30px;
+  width: 25%;
+  margin-top: 5px;
+  margin-right: 5%;
+  font-weight: 600;
+}
+
+.head4:hover {
+  background-color: green;
+  color: white;
+}
+
+.view2 {
+  background-image: url(https://imgcdn.floweraura.com/flower_in_gift_box_1.jpg);
+  height: 200px;
+  background-size: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+/* Special Flowers */
+
+.special-fool {
+  height: 400px;
+}
+
+.special {
+  background-image: url(https://imgcdn.floweraura.com/permium_flower_2.png);
+  background-size: cover;
+  height: 350px;
+}
+
+#specialimg1 {
+  border: 1px solid rgba(0, 0, 0, 0.47);
+  border-top: none;
+  height: 30px;
+  border-radius: 0 0 10px 10px;
+}
+
+.specia2 {
+  background-image: url(https://imgcdn.floweraura.com/floweraura_usa_1_1.png);
+  background-size: cover;
+}
+
+.specia3 {
+  background-image: url(https://imgcdn.floweraura.com/balloon_bouquet_2_0.png);
+  background-size: cover;
+}
+
+#Premium {
+  background-color: rgba(255, 228, 196, 0.445);
+  width: 90vw;
+  border-radius: 0 0 20px 20px;
+}
+
+#Premium1 {
+  background-color: rgba(255, 228, 196, 0.445);
+  width: 90vw;
+  border-radius: 20px 20px 0 0;
+}
+
+.bytype:hover {
+  transform: scale(0.9);
+  box-shadow: 10px 10px 20px gray, -5px -5px 10px gray;
+  transition-property: all;
+  transition-duration: 0.8s;
+}
+
+/* text */
+
+.lastp {
+  font-size: 12px;
+}
+
+.liststyle {
+  line-height: 15px;
+}
+
+/* social-media */
+
+.fa-brands {
+  font-size: 2rem;
+  margin-left: 2rem;
+}
+
+.fa-brands:hover {
+  position: relative;
+  transform: scale(0.8);
+  text-shadow: 0 30px 10px gray;
+}
+
+.fa-facebook {
+  color: rgb(112, 112, 246);
+}
+
+.fa-twitter {
+  color: rgb(111, 197, 232);
+}
+
+.fa-youtube {
+  color: red;
+}
+
+.fa-pinterest {
+  color: rgb(223, 101, 101);
+}
+
+.fa-instagram {
+  color: rgb(123, 59, 72);
+}
+
+.fa-linkedin {
+  color: rgb(49, 49, 98);
+}
+
+/* Subfooter */
+
+#subfooter {
+  font-size: 0.8rem;
+}
+
+/* footer */
+
+.footerimg {
+  margin-right: 5px;
+}
+
+#footericon {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+}
+
+.fa-paypal {
+  color: #253b80;
+}
+
+.fa-google-pay {
+  color: rgb(234, 67, 53);
+}
+
+.fa-cc-visa {
+  color: #172274;
+}
+
+.fa-amazon-pay {
+  color: #333e47;
+}
+
+.fa-credit-card {
+  color: #3c3656;
+}
